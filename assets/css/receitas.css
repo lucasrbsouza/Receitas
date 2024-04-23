@@ -29,3 +29,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.recipe li{
+    margin: 10px;
+    padding: 5px;
+}
+.recipe p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    text-align: justify;
+    line-height: 1.5;
+}
+.recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}

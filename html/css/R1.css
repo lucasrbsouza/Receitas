@@ -18,3 +18,11 @@
     border: transparent solid transparent;
     border-radius: 500px;
 }
+
+div#efeitoSonoro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
