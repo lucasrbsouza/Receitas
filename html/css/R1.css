@@ -1,0 +1,20 @@
+.h3 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100px; /* Defina uma altura desejada */
+}
+
+
+.img {
+    text-align: center; /* Centraliza horizontalmente */
+}
+
+.img img {
+    width: 500px; /* Reduz para metade da largura original */
+    height: 500px; /* Mantém a proporção original da altura */
+    display: block; /* Permite definir margens automáticas */
+    margin: auto; /* Centraliza horizontalmente */
+    border: transparent solid transparent;
+    border-radius: 500px;
+}

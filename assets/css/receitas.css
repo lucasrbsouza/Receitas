@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.recipe h2 {
+    color: #000000;
+}
+
+.recipe ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

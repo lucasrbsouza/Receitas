@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header.header {
+    flex-direction: row;
+}
+
+div.menu {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+}
+
+h1.nomeLogo {
+    margin: 20px;
+    margin-right: 200px;
+}
+
+ul.itensMenu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+ul.itensMenu a {
+    position: relative;
+    padding: 10px;
+    margin: 20px;
+}
+
+ul.itensMenu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #0074d9;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+ul.itensMenu a:hover::after {
+    transform: scaleX(1);
+}
+ul.itensMenu li a {
+    position: relative;
+    color: #000; /* Definindo a cor do texto */
+    text-decoration: none; /* Removendo o sublinhado */
+}

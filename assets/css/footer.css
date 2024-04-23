@@ -1,0 +1,90 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+
+.footer ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+.comment-form-popup {
+    display: none; /* Inicialmente, o formulário não será exibido */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Define a largura máxima do formulário */
+}
+
+.comment-form-popup h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.comment-form-popup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+}
+
+.comment-form-popup input[type="text"],
+.comment-form-popup textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.comment-form-popup textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.comment-form-popup input[type="submit"],
+.comment-form-popup .close-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.comment-form-popup input[type="submit"]:hover,
+.comment-form-popup .close-btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o botão de fechar */
+.close-btn {
+    margin-top: 10px;
+}
+#comment-popup {
+    cursor: pointer;
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */
+    background-color: #ffc107; /* Cor de fundo */
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+}
