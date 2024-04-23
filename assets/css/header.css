@@ -52,3 +52,61 @@ li{
    margin: 20px;
    
 }
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Alterado para centralizar verticalmente */
+        align-items: center; /* Alterado para centralizar horizontalmente */
+        height: 100vh; /* Definindo a altura para ocupar toda a altura da tela */
+        padding: 10px;
+    }
+
+    .menu-lines {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 20px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+    .menu-lines span {
+        width: 100%;
+        height: 2px;
+        background-color: black;
+    }
+
+    .nomeLogo {
+        margin: 10px 0; 
+    }
+
+    .itensMenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        width: 100vw;
+        text-align: center;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .itensMenu li {
+        margin: 10px 0;
+    }
+
+    .itensMenu a {
+        display: block;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .itensMenu a:hover {
+        background-color: #f2f2f2;
+    }
+}
+

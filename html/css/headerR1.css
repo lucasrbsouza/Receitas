@@ -58,3 +58,69 @@ ul.itensMenu li a {
     color: #000; /* Definindo a cor do texto */
     text-decoration: none; /* Removendo o sublinhado */
 }
+
+@media only screen and (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    header.header {
+        flex-direction: column;
+    }
+
+    div.menu {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto; /* Alterando a altura para ajustar automaticamente o conteúdo */
+        background-color: #fff;
+    }
+
+    h1.nomeLogo {
+        margin: 20px;
+        margin-right: 0; /* Removendo a margem à direita em telas pequenas */
+        text-align: center; /* Centralizando o texto */
+    }
+
+    ul.itensMenu {
+        list-style: none;
+        display: flex;
+        flex-direction: column; /* Alterando a direção para coluna em telas pequenas */
+        margin-left: 0; /* Removendo a margem à esquerda em telas pequenas */
+        padding: 0; /* Removendo o preenchimento */
+    }
+
+    ul.itensMenu a {
+        position: relative;
+        padding: 10px;
+        margin: 10px 0; /* Ajustando a margem em telas pequenas */
+        text-align: center; /* Centralizando o texto */
+    }
+
+    ul.itensMenu a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        background-color: #0074d9;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+
+    ul.itensMenu a:hover::after {
+        transform: scaleX(1);
+    }
+
+    ul.itensMenu li a {
+        color: #000; /* Definindo a cor do texto */
+        text-decoration: none; /* Removendo o sublinhado */
+    }
+}

@@ -1,12 +1,8 @@
-// function clickMenu() {
-//     if(itensMenu.style.display == "flex"){
-//         itensMenu.style.display = "none";
-//         menu.textContent="menu"
-//     } else{
-//         itensMenu.style.display = "flex"
-//         menu.innerText="close"
-//     }
-// }
-
-// var menu = document.getElementById("menuBurguer");
-// menu.addEventListener("click", clickMenu)
+function toggleMenu() {
+    var menuItems = document.getElementById("menuItems");
+    if (menuItems.style.display === "block") {
+        menuItems.style.display = "none";
+    } else {
+        menuItems.style.display = "block";
+    }
+}

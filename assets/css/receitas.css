@@ -9,6 +9,10 @@ body {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .recipe h2 {
@@ -20,31 +24,28 @@ body {
     padding-left: 20px;
 }
 
+.recipe li {
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Ajuste conforme necessário */
+    text-align: justify;
+    line-height: 1.5;
+}
+
 footer {
     background-color: #fff;
     color: #000000;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
-.recipe li{
-    margin: 10px;
-    padding: 5px;
-}
-.recipe p{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    text-align: justify;
-    line-height: 1.5;
-}
-.recipe{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-}
+
