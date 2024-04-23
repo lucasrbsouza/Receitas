@@ -1,20 +1,21 @@
 .h3 {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100px; /* Defina uma altura desejada */
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+    font-weight: 500;
 }
 
 
 .img {
-    text-align: center; /* Centraliza horizontalmente */
+    text-align: center; 
 }
 
 .img img {
-    width: 500px; /* Reduz para metade da largura original */
-    height: 500px; /* Mantém a proporção original da altura */
-    display: block; /* Permite definir margens automáticas */
-    margin: auto; /* Centraliza horizontalmente */
+    width: 500px;
+    height: 500px; 
+    display: block; 
+    margin: auto;
     border: transparent solid transparent;
     border-radius: 500px;
 }

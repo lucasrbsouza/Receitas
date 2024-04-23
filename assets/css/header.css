@@ -57,9 +57,9 @@ li{
     .menu {
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Alterado para centralizar verticalmente */
-        align-items: center; /* Alterado para centralizar horizontalmente */
-        height: 100vh; /* Definindo a altura para ocupar toda a altura da tela */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         padding: 10px;
     }
 

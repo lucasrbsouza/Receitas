@@ -55,8 +55,8 @@ ul.itensMenu a:hover::after {
 }
 ul.itensMenu li a {
     position: relative;
-    color: #000; /* Definindo a cor do texto */
-    text-decoration: none; /* Removendo o sublinhado */
+    color: #000;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -77,29 +77,29 @@ ul.itensMenu li a {
         top: 0;
         left: 0;
         width: 100%;
-        height: auto; /* Alterando a altura para ajustar automaticamente o conteúdo */
+        height: auto;
         background-color: #fff;
     }
 
     h1.nomeLogo {
         margin: 20px;
-        margin-right: 0; /* Removendo a margem à direita em telas pequenas */
-        text-align: center; /* Centralizando o texto */
+        margin-right: 0;
+        text-align: center;
     }
 
     ul.itensMenu {
         list-style: none;
         display: flex;
-        flex-direction: column; /* Alterando a direção para coluna em telas pequenas */
-        margin-left: 0; /* Removendo a margem à esquerda em telas pequenas */
-        padding: 0; /* Removendo o preenchimento */
+        flex-direction: column;
+        margin-left: 0; 
+        padding: 0;
     }
 
     ul.itensMenu a {
         position: relative;
         padding: 10px;
-        margin: 10px 0; /* Ajustando a margem em telas pequenas */
-        text-align: center; /* Centralizando o texto */
+        margin: 10px 0;
+        text-align: center;
     }
 
     ul.itensMenu a::after {
@@ -120,7 +120,7 @@ ul.itensMenu li a {
     }
 
     ul.itensMenu li a {
-        color: #000; /* Definindo a cor do texto */
-        text-decoration: none; /* Removendo o sublinhado */
+        color: #000; 
+        text-decoration: none; 
     }
 }

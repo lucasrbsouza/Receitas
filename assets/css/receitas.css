@@ -34,7 +34,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%; /* Ajuste conforme necessário */
+    width: 50%;
     text-align: justify;
     line-height: 1.5;
 }

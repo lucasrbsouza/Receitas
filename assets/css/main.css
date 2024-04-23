@@ -174,8 +174,8 @@ section#secao-curiosidades p{
     border-color: #333;
 }
 div.img img {
-    max-width: 100%; /* Define a largura máxima como 100% para que a imagem se ajuste ao tamanho da tela */
-    height: auto; /* Define a altura como automática para manter a proporção da imagem */
+    max-width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -252,7 +252,7 @@ div.img img {
         border-color: #333;
     }
     div.container li img {
-        max-width: 100%; /* Adicionando esta regra */
+        max-width: 100%;
         height: auto;
         border-radius: 50%;
     }

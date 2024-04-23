@@ -91,13 +91,13 @@ footer {
 
 @media only screen and (max-width: 768px) {
     footer {
-        flex-direction: column; /* Alterando a direção para coluna */
-        text-align: center; /* Centralizando o conteúdo */
+        flex-direction: column;
+        text-align: center; 
         padding: 10px;
     }
 
     .footer ul {
-        margin-top: 10px; /* Adicionando margem ao topo */
+        margin-top: 10px;
     }
 
     .comment-form-popup {
