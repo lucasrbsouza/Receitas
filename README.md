@@ -34,17 +34,13 @@
 - CSS3
 - JavaScript
 
-### Autor:
+### Autores:
 
 - Brunna Rocha Ferreira 
 - José Lucas Silva Souza 
 - Lara Bezerra do Vale Silva 
 - Mateus Pessôa Costa 
 
-
-### Licença:
-
-Este projeto está sob a Licença MIT. Consulte o arquivo [LICENSE](https://github.com/seu-usuario/receitinhas/blob/main/LICENSE) para mais detalhes.
 
 ### Agradecimentos:
 
