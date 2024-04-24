@@ -36,7 +36,11 @@
 
 ### Autor:
 
-Seu Nome
+- Brunna Rocha Ferreira 
+- José Lucas Silva Souza 
+- Lara Bezerra do Vale Silva 
+- Mateus Pessôa Costa 
+
 
 ### Licença:
 
