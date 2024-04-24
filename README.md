@@ -2,7 +2,7 @@
 
 ---
 
-![Receitinhas Logo](/assets/img/Logo/OIG1.jpeg =200x200)
+![Receitinhas Logo](/assets/img/Logo/OIG1.jpeg=200x200)
 
 ---
 
