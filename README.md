@@ -2,7 +2,7 @@
 
 ---
 
-![Receitinhas Logo](https://example.com/logo.png)
+![Receitinhas Logo](/assets/img/Logo/OIG1.jpeg)
 
 ---
 
